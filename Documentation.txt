@@ -1,0 +1,60 @@
+home page is 0
+analysis page is 1 
+MAINWINDOW.CPP
+
+#include "mainwindow.h"
+#include<QStackedWidget>
+#include "QPixmap"
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+{
+    ui.setupUi(this);
+    QObject::connect(ui.pushButton_2,&QPushButton::clicked, this, &MainWindow::on_pushButton_2_clicked);
+
+}
+
+MainWindow::~MainWindow() {}
+
+
+
+void MainWindow::on_pushButton_2_clicked()
+{
+
+    ui.stackedWidget->setCurrentIndex(1);
+}
+
+
+MAINWINDOW.H
+
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
+
+#include "./ui_mainwindow.h"
+#include "QPixmap"
+#include <QMainWindow>
+
+class MainWindow : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    MainWindow(QWidget *parent = nullptr);
+    ~MainWindow() override;
+
+private slots:
+
+
+
+
+    void on_pushButton_2_clicked();
+
+
+
+private:
+    Ui::MainWindow ui;
+};
+
+
+
+#endif // MAINWINDOW_H

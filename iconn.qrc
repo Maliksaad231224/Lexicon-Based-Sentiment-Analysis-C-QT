@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/ico">
+        <file>Icon/analysis.png</file>
+        <file>Icon/bell.png</file>
+        <file>Icon/comp.png</file>
+        <file>Icon/data.png</file>
+        <file>Icon/icons8-home-50.png</file>
+        <file>Icon/law.png</file>
+        <file>Icon/left-chevron.png</file>
+        <file>Icon/option.png</file>
+        <file>Icon/ppp.png</file>
+        <file>Icon/icons8-data-science-64 (1).png</file>
+        <file>Icon/icons8-visualization-99.png</file>
+        <file>Icon/Negative (1).txt</file>
+        <file>Icon/negator.txt</file>
+        <file>Icon/allwords.txt</file>
+        <file>Icon/logo (1).png</file>
+        <file>Icon/positive-words.txt</file>
+        <file>Icon/intensifiers.txt</file>
+        <file>Icon/zFb5tD.jpg</file>
+        <file>Icon/movies-thor-hammer-thor-2-the-dark-world-wallpaper-preview.jpg</file>
+        <file>Icon/bottom right.png</file>
+        <file>Icon/bottom.png</file>
+        <file>Icon/cpp.png</file>
+        <file>Icon/css.png</file>
+        <file>Icon/qt_94938.png</file>
+        <file>Icon/Tech.png</file>
+        <file>Icon/top_bar.png</file>
+        <file>Icon/top_left.png</file>
+        <file>Icon/top_right.png</file>
+        <file>Icon/images.jpg</file>
+        <file>Icon/images.png</file>
+        <file>Icon/8932269.png</file>
+        <file>Icon/coding_5845724.png</file>
+        <file>Icon/6132222.png</file>
+    </qresource>
+    <qresource prefix="/new/prefix1"/>
+</RCC>
