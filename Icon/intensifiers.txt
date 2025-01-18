@@ -12,6 +12,8 @@ calmly
 negatively
 abysmally
 awfully
+much 
+more
 bitterly
 bleakly
 blindly

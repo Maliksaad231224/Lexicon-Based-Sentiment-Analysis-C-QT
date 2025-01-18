@@ -61,7 +61,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="home">
      <widget class="QFrame" name="frame_4">
@@ -745,7 +745,7 @@ color:rgba(229,232,236,255)
        <widget class="QLabel" name="label_19">
         <property name="geometry">
          <rect>
-          <x>50</x>
+          <x>70</x>
           <y>0</y>
           <width>151</width>
           <height>31</height>
@@ -757,14 +757,14 @@ font: 17pt &quot;Calibri&quot;;
 color: rgb(255, 255, 255);</string>
         </property>
         <property name="text">
-         <string>Total  Words:</string>
+         <string>Total Words:</string>
         </property>
        </widget>
        <widget class="QLabel" name="totalwords">
         <property name="geometry">
          <rect>
-          <x>120</x>
-          <y>20</y>
+          <x>110</x>
+          <y>30</y>
           <width>71</width>
           <height>41</height>
          </rect>
@@ -823,7 +823,7 @@ color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="positive">
         <property name="geometry">
          <rect>
-          <x>120</x>
+          <x>110</x>
           <y>20</y>
           <width>71</width>
           <height>51</height>
@@ -884,7 +884,7 @@ color: rgb(255, 255, 255);</string>
        <widget class="QLabel" name="negative">
         <property name="geometry">
          <rect>
-          <x>120</x>
+          <x>110</x>
           <y>20</y>
           <width>61</width>
           <height>51</height>
@@ -1478,9 +1478,9 @@ color: rgb(0, 114, 187);</string>
      <widget class="QPushButton" name="pushButton_4">
       <property name="geometry">
        <rect>
-        <x>400</x>
+        <x>420</x>
         <y>530</y>
-        <width>261</width>
+        <width>191</width>
         <height>61</height>
        </rect>
       </property>
@@ -1512,13 +1512,13 @@ QPushButton:pressed {
 </string>
       </property>
       <property name="text">
-       <string>  Home</string>
+       <string>      Home</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_42">
       <property name="geometry">
        <rect>
-        <x>430</x>
+        <x>440</x>
         <y>540</y>
         <width>51</width>
         <height>41</height>
